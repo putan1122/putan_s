@@ -1,48 +1,101 @@
-<div id="header" align="center">
-  <img src="https://media.giphy.com/media/57nf4oyyMmZ2L9QqJN/giphy.gif" width="200"/>
-</div>
+# User Guide for Homework 2 - Group 16 ZTF
 
-<div id="badges" align="center">
-  <a href="https://www.linkedin.com/in/pu-tan1122/">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
-  </a>
-  <a href="putan@seas.upenn.edu">
-    <img src="https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail Badge"/>
-  </a>
-</div>
+Teammates: Zijian Zhang, Pu Tan, Yigao Fang
 
-<h1 align="center">Hi 👋, I'm Pu Tan</h1>
-<h3 align="center">A data wizard in making, with a wealth of experience as a Engineer and a formidable proficiency in Data Science, specializing in Machine Learning with a Master’s degree at UPenn</h3>
-<!-- <h3 align="center">Will graduate in May 2024</h3> -->
-<!-- <h4 align="center">🔍 Actively seeking full time position</h4> -->
+The following is the guide of how to run our Insta557 website:
 
+## Set Up Instruction
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dhvani-k&label=Profile%20views&color=0e75b6&style=flat" alt="dhvani-k" /> </p>
+1. Download the whole package to your local machine.
 
-- 🔭 I’m currently working on **Feature Engineer Competition** and **Side Large Language Model**
+2. Navigate to the directory of project-group-16-ztf/insta557/
 
-- 🌱 I’m currently learning **Artificial Intelligence, Data and Analysis for Marketing Decisions**
+3. Run
 
-- 💬 Ask me about **Data Engineering, Data Science, Machine Learning**
+```sh
+$ npm install
+```
+to install necessary packages.
 
-- ⚡ Fun fact **Forever the girl that gets excited over pretty skies, books, and good coffee! ✨**
+4. Run
 
-- 🧠 Also technical **projects** - <a href="https://github.com/putan1122/portfolio/tree/main/Projects_public" target="_blank">Projects</a>
+```sh
+$ npm install axios
+$ npm install -g json-server
+$ npm install -g jest
+```
+to install other packages for backend mocking and testing.
 
-- 📫 How to reach me **putan@seas.upenn.edu**
+5. Run
 
-- Well my resume provides a history of all the good stuff, like my qualifications, experience, and killer sense of humor. Okay, maybe not the last one, but it's worth a shot, right? You can find my resume at - <a href="https://github.com/putan1122/portfolio/tree/main" target="_blank">**Resume**</a>
+```sh
+$ npm start
+```
 
+6. Open a new tab in terminal, and navigate to the directory of project-group-16-ztf/insta557/json_server, and run
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.linkedin.com/in/pu-tan1122/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dhvanik/" height="30" width="40" /></a>
-<!-- <a href="https://kaggle.com/dhvani.kothari_" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="dhvani.kothari_" height="30" width="40" /></a> -->
-<!-- <a href="https://www.hackerrank.com/kotharidk03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="kotharidk03" height="30" width="40" /></a> -->
-<!-- <a href="https://www.leetcode.com/dhvanikothari03" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="dhvanikothari03" height="30" width="40" /></a> -->
-</p>
+```sh
+$ json-server db.json --port 8000
+```
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://cordova.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" alt="apachecordova" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://azure.microsoft.com/en-in/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/microsoft_azure/microsoft_azure-icon.svg" alt="azure" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.elastic.co" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg" alt="elasticsearch" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://hadoop.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hadoop/apache_hadoop-icon.svg" alt="hadoop" width="40" height="40"/> </a> <a href="https://hive.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_hive/apache_hive-icon.svg" alt="hive" width="40" height="40"/> </a> <a href="https://ionicframework.com" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg" alt="ionic" width="40" height="40"/> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a> <a href="https://www.scala-lang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/scala/scala-original.svg" alt="scala" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+## Website Exploration Instruction (Very Important)
 
+### Testing
 
+To get the coverage rate of our UI testing, it's needed to run
+```sh
+$ jest --coverage
+```
+Otherwise the testing will not work (including npm test).
+We have tested from different machines, and we can achieve a coverage rate of 75% for all files in the folder of insta557/src/components, which contains all javascript files.
+
+### Frontend Implementation and Backend Mocking
+
+1. Feature - User registration
+
+- Navigate to http://localhost:3000/
+- Click on the "Sign Up" button.
+- Type in all of the information for the new user.
+- Click on "Register!" button. (The new user will be created and posted to the insta557/json_server/db.json)
+- The website will navigate to the main page of the website. The newly created user will be the logged in user.
+
+2. Feature - Login/Auth
+
+- Navigate to http://localhost:3000/
+- Type in the username and password. Note that the usernames are case sensitive. (We highly recommend you to use "Kiki" as the username with password "123", since the two template posts in the existing mocked backend are for the user "Kiki".)
+- Click on the "Log In" button.
+- The website will navigate to the main page of the website. The user with the username just typed in will be the logged in user.
+
+3. Feature - User profile page
+
+- First make sure that there is a user logged in.
+- Click on the upper right corner's "Panda head" logo.
+- The website will navigate to the user profile page of the current logged in user.
+
+4. Feature - Create post / Photo / Video upload
+
+- First make sure that there is a user logged in.
+- Click on the "Post or Upload" button.
+- Type in the subject, description, the image URL. Here are some sample URL from the internet:
+```sh
+Jackie Chan:    https://i.ibb.co/wJPfKyM/KF.jpg
+Cat:            https://i.ibb.co/2yv0GKP/cat.jpg
+Raccoon:        https://i.ibb.co/RDx4cjs/xiaohuanxiong.jpg
+```
+(The new post will be created and posted to the insta557/json_server/db.json)
+- The website will navigate to the main page of the website, and the new post will be shown on the main page.
+
+5. Feature - Follow/unfollow users.
+
+- First make sure that there is a user logged in.
+- Click on the upper right corner's "Panda head" logo.
+- Click on the "Follower Suggestions" on the left navigation list.
+- A list of users will show up on the left navigation list.
+- Click on some of the users shown on the list, the username and id will show up on the right.
+- Click on the follow/ unfollow button will allow the logged in user to follow/ unfollow the current user shown.
+
+6. Feature - Activity feed 
+
+- (Continue from the last feature)
+- The activity feed of following and unfollowing events will be shown in the "Activity Feed" section of the page.
+- (For the activity feed of the post information) Click on the upper left corner's "Panda" logo to navigate back to the main page, and all of the posts posted by the current user will show up there.
